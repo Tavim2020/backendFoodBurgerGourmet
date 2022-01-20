@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.login{
+    width: 35vw;
+    height: 70vh;
+    position: absolute;
+    top: 15%;
+    left: 32.5%;
+    background-color: #fff;
+    border-radius: 0.7vw;
+}
+
+.login h3{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 5.5vh;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+    margin-bottom: 5.5vh;
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+}
+
+form label{
+    display: block;
+    font-size: 0.9vw;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+    margin-bottom: 1.6vh;
+}
+
+form input{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
+}
+
+.login form input:nth-child(2){
+    margin-bottom: 3.5vh;
+}
+
+.login form input:nth-child(4){
+    margin-bottom: 4.9vh;
+}
+
+button{
+    width: 100%;
+    height: 6vh;
+    color: #fff;
+    background-color:rgb(56, 56, 56);
+    border-radius: 0.4vw;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+ 
+button:hover{
+    transform: scale3d(1.08, 1.08, 1);
+}
+
+P{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 3.5vh;
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.hidden{
+    display: none;
+}
+
+.formularioDeCadastroBurger{
+    margin: 0 auto;
+    width: 85vw;
+    height: 89vh;
+    position: absolute;
+    top: 5.5%;
+    left: 7.5%;
+    background-color: #fff;
+    display: flex;
+}
+
+
+.welcome{
+    width: 50%;
+    height: 100%;
+}
+
+.welcome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.novoBurger{
+    width: 50%;
+    height: 100%;
+}
+
+.novoBurger h4{
+    text-align: center;
+    margin-top: 6vh;
+    font-size: 1.2vw;
+    margin-bottom: 6vh;
+}
+
+.novoBurger form{
+    width: 80%;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.novoBurger label{
+    margin-left: 5%;
+}
+
+.novoBurger input{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3vh;
+}
+
+.align{
+    padding-top: 1.3vh;
+}
+
+.novoBurger button{
+    margin-top: 3vh;
+}
